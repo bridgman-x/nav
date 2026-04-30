@@ -1,0 +1,52 @@
+baseURL: 'https://your-domain.com'
+languageCode: 'zh-CN'
+title: '我的导航'
+theme: 'webstack-hugo'
+
+params:
+  author: '你的名字'
+  description: '个人常用链接导航'
+  keywords: '导航,书签,个人主页'
+
+  # 网站信息
+  logo: '/images/logo.png'
+  favicon: '/images/favicon.ico'
+
+  # 搜索框配置
+  search:
+    enable: true
+    placeholder: '搜索或输入网址...'
+    engines:
+      - name: '百度'
+        url: 'https://www.baidu.com/s?wd='
+        icon: 'https://www.baidu.com/favicon.ico'
+      - name: 'Google'
+        url: 'https://www.google.com/search?q='
+        icon: 'https://www.google.com/favicon.ico'
+      - name: 'Bing'
+        url: 'https://www.bing.com/search?q='
+        icon: 'https://www.bing.com/favicon.ico'
+      - name: 'GitHub'
+        url: 'https://github.com/search?q='
+        icon: 'https://github.com/favicon.ico'
+
+  # 主题设置
+  theme:
+    default: 'auto'  # auto/light/dark
+    switch: true     # 允许切换
+
+  # 页脚信息
+  footer:
+    copyright: '© 2025 我的导航'
+    icp: ''  # 备案号，没有留空
+
+  # 天气插件（可选）
+  weather:
+    enable: false
+    key: ''
+    city: '北京'
+
+  # 访问量统计
+  analytics:
+    enable: false
+    type: ''  # busuanzi/umami
